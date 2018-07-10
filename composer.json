@@ -1,7 +1,7 @@
 {
     "name": "jinexus-framework/jinexus-config",
     "type": "component",
-    "description": " ",
+    "description": "Config component from JiNexus Framework",
     "license": "BSD-3-Clause",
     "keywords": [
         "jinexus",
