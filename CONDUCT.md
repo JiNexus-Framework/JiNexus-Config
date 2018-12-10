@@ -1,6 +1,6 @@
 # Contributor Code of Conduct
 
-The JiNexus/Config project adheres to [The Code Manifesto](http://codemanifesto.com)
+The JiNexus Config component adheres to [The Code Manifesto](http://codemanifesto.com)
 as its guidelines for contributor interactions.
 
 ## The Code Manifesto

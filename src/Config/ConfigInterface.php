@@ -11,10 +11,19 @@ use JiNexus\ModuleManager\ModuleManager\ModuleManager;
 interface ConfigInterface extends BaseInterface
 {
     /**
-     * ConfigInterface constructor.
+     * ConfigInterface constructor
+     */
+    public function __construct();
+
+    /**
+     * @return array
+     */
+    public function getConfig();
+
+    /**
      * @param array $config
      */
-    public function __construct($config = []);
+    public function setConfig($config = []);
 
     /**
      * Get a value and return $default if there is no element set.

@@ -11,11 +11,10 @@ use JiNexus\Config\Factory\AbstractFactory;
 class ConfigFactory extends AbstractFactory
 {
     /**
-     * @param $config
      * @return Config
      */
-    public static function build($config)
+    public static function build()
     {
-        return new Config($config);
+        return new Config();
     }
 }

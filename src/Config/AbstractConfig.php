@@ -16,9 +16,21 @@ abstract class AbstractConfig extends AbstractBase implements ConfigInterface
 
     /**
      * AbstractConfig constructor
+     */
+    public function __construct() { }
+
+    /**
+     * @return array
+     */
+    public function getConfig()
+    {
+        return $this->config;
+    }
+
+    /**
      * @param array $config
      */
-    public function __construct($config = [])
+    public function setConfig($config = [])
     {
         $this->config = $config;
     }
