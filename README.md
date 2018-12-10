@@ -4,4 +4,4 @@
 application.
 
 - File issues at https://github.com/jinexus-framework/jinexus-config/issues
-- Documentation is at https://framework.jinexus.com/jinexus-config/
+- Documentation is at https://framework.jinexus.com/documentation
